@@ -53,12 +53,14 @@ body {
   border-radius: 160% 160% 5px 5px;
   border: #7f5af0 solid 3px;
   border-bottom: none;
+  cursor: pointer;
 }
 
 .content .main-box {
   border-top: #7f5af0 solid 3px;
   border-top-left-radius: 7%;
   border-top-right-radius: 7%;
+  height: 310px;
 }
 
 .content .main-box .main-text, .content .main-box .main-side-img {
@@ -78,6 +80,7 @@ body {
 }
 
 .main-side-img img {
-  height: 300px;
+  height: auto;
+  width: 220px;
 }
 /*# sourceMappingURL=style.css.map */

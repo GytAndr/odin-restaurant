@@ -33,6 +33,7 @@ border-radius: 50px;
                 border-radius: 160% 160% 5px 5px;
                 border:#7f5af0 solid 3px ;
                 border-bottom: none;
+                cursor: pointer;
             }
         }
     }
@@ -40,6 +41,7 @@ border-radius: 50px;
         border-top: #7f5af0 solid 3px;
         border-top-left-radius: 7%;
         border-top-right-radius: 7%;
+        height: 310px;
         .main-text, .main-side-img{
             height: 100%;
             display: flex;
@@ -52,5 +54,6 @@ border-radius: 50px;
 }
 }
 .main-side-img img {
-    height: 300px;
+    height: auto;
+    width: 220px;
 }
